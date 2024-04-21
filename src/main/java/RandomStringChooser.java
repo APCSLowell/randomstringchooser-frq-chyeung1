@@ -11,7 +11,7 @@ public class RandomStringChooser
 
   public String getNext(){
     if(array.size() > 0)
-    return array.get((int)(Math.Random() * array.length));
+    return array.get((int)(Math.Random() * array.size()));
     else 
     return "NONE";
   }
